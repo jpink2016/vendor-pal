@@ -1,3 +1,5 @@
+terraform output -raw backend_env_file > ../app/backend/.env  
+
 Git Commands:
 ---------------
 1. git status - Check the status of your working directory.
