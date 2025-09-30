@@ -1,0 +1,52 @@
+Git Commands:
+---------------
+1. git status - Check the status of your working directory.
+2. git add <file> - Add specific files to the staging area.
+3. git add . - Add all changed files to the staging area.
+4. git commit -m "<message>" - Commit the staged changes with a message.
+5. git push - Push local commits to the remote branch.
+6. git pull - Pull changes from the remote repository.
+7. git branch - List all local branches.
+8. git checkout <branch> - Switch to a specific branch.
+9. git merge <branch> - Merge another branch into the current branch.
+10. git log - Show the commit history.
+11. git fetch - Retrieve updates from the remote repository without merging.
+12. git rebase <branch> - Rebase the current branch onto another branch.
+13. git diff - Show changes between commits or working directory and staging.
+
+Neovim Commands:
+----------------
+1. :q - Quit Neovim.
+2. :w - Save the file.
+3. :wq - Save and quit.
+4. :q! - Quit without saving changes.
+5. i - Enter insert mode.
+6. ESC - Exit insert mode.
+7. dd - Delete the current line.
+8. yy - Yank (copy) the current line.
+9. p - Paste the yanked content after the cursor.
+10. u - Undo the last change.
+11. Ctrl+r - Redo the last undone change.
+12. /<text> - Search for a specific text.
+13. :set number - Show line numbers.
+14. gg - Go to the top of the file.
+15. G - Go to the bottom of the file.
+16. <number>G - Go to a specific line number (e.g., 5G to go to line 5).
+17. V - Start visual mode to select text.
+18. V + j/k - Highlight a whole line (press V, then use j/k to extend the selection).
+19. :s/<find>/<replace>/g - Find and replace all occurrences in the file.
+20. :noh - Remove search highlighting.
+
+For navigating files:
+----------------------
+1. :e <file> - Open a specific file.
+2. :Explore - Open the file explorer.
+3. :split <file> - Split the window and open a new file.
+4. :vsplit <file> - Vertical split for opening a file in the next window.
+
+Navigating within terminal:
+----------------------------
+1. cd <path> - Change directory.
+2. ls - List directory contents.
+3. clear - Clear the terminal screen.
+
